@@ -61,7 +61,11 @@ const NavBar = () => {
         </Button>
         <Button
           variant="light"
-          style={{ marginLeft: "10px", borderRadius: "50px" }}
+          style={{
+            marginLeft: "10px",
+            borderRadius: "50px",
+            color: "grey"
+          }}
         >
           Login
         </Button>
