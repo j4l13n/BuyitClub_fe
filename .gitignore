@@ -3,3 +3,4 @@ node_modules/
 # files
 .editorconfig
 .env
+.DS_Store
