@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "../components/Navbar/NavBar";
 import Slider from "../components/Slider/Slider";
 import ProductCards from "../components/ProductCards/ProductCards";
+import Footer from "../components/Footer/Footer";
 
 class HomePage extends Component {
   render() {
@@ -11,6 +12,7 @@ class HomePage extends Component {
         <Slider />
         <ProductCards />
         <ProductCards />
+        <Footer />
       </>
     );
   }
